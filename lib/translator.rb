@@ -32,9 +32,11 @@ def get_japanese_emoticon(file_path, emoticon)
    
     if key == [:get_emoticon]
       
+      binding.pry
+      
       key.each do |eng, jan|
         
-        binding.pry
+        
         
   end
  end 
