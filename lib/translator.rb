@@ -41,7 +41,7 @@ def get_japanese_emoticon(file_path, emoticon)
       translation
         
  end
- 
+ end
  translation
  
 end
