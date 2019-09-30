@@ -19,7 +19,6 @@ def load_library(file_path)
    
    new_hash[:get_emoticon][english] = japanese
    
- 
   end
   
   new_hash
