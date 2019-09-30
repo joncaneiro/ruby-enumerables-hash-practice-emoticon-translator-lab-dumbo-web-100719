@@ -33,12 +33,12 @@ def get_japanese_emoticon(file_path, emoticon)
   message = "Sorry, that emoticon was not found"
   
   translation = emoticons["get_emoticon"]
-# binding.pry
+
   
   translation.each do |key, value|
     
     if key == emoticon
-      
+      binding.pry
        value
        
     else
