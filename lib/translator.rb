@@ -28,7 +28,7 @@ def get_japanese_emoticon(file_path, emoticon)
   
   emoticons = YAML.load_file(file_path)
   
-  japanese = emoticon
+  new_hash[:get_emoticon].each
   
 end
 
