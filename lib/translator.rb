@@ -50,6 +50,8 @@ def get_english_meaning(file_path, emoticon)
   
   emoticons = load_library(file_path)
   
+  message = "Sorry, that emoticon was not found"
+  
   
   translation = emoticons[:get_emoticon]
   
@@ -61,7 +63,7 @@ def get_english_meaning(file_path, emoticon)
        
     elsif
        
-      "Sorry, that emoticon was not found"
+     puts message
        
   end     
  end
