@@ -30,6 +30,8 @@ def get_japanese_emoticon(file_path, emoticon)
   
   emoticons = load_library(file_path)
   
+  message = "Sorry, that emoticon was not found"
+  
   
   translation = emoticons[:get_meaning]
   
@@ -39,9 +41,12 @@ def get_japanese_emoticon(file_path, emoticon)
       
        value
        
+    else
+      
+      puts message
+    
   end     
  end
- 
 end
 
 
@@ -61,7 +66,7 @@ def get_english_meaning(file_path, emoticon)
       
        value
        
-    elsif
+    else
        
      puts message
        
