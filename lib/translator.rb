@@ -28,9 +28,8 @@ end
 
 def get_japanese_emoticon(file_path, emoticon)
   
-  emoticons = YAML.load_file(file_path)
-  
   library = load_library(file_path)
+  
   
   translation = library[:get_meaning]
   
@@ -42,6 +41,7 @@ def get_japanese_emoticon(file_path, emoticon)
        
   end     
  end
+ value
 end
 
 
