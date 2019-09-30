@@ -36,9 +36,11 @@ def get_japanese_emoticon(file_path, emoticon)
   
   translation.each do |key, value|
     
-    binding.pry
-    
-
+    if key == emoticon
+      
+       value
+       
+  end     
  end
 end
 
