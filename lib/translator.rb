@@ -30,7 +30,9 @@ def get_japanese_emoticon(file_path, emoticon)
   
   emoticons.each do |key, value|
    
-   binding.pry
+    if key == [:get_emoticon]
+      
+      key.each do |eng, jan
   
 end
 end
