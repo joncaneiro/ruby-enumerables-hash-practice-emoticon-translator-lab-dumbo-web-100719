@@ -32,8 +32,8 @@ def get_japanese_emoticon(file_path, emoticon)
   
   message = "Sorry, that emoticon was not found"
   
-  
   translation = emoticons[:get_meaning]
+  
   
   translation.each do |key, value|
     
@@ -43,7 +43,7 @@ def get_japanese_emoticon(file_path, emoticon)
        
     else
       
-      puts message
+       message
     
   end     
  end
@@ -57,8 +57,8 @@ def get_english_meaning(file_path, emoticon)
   
   message = "Sorry, that emoticon was not found"
   
-  
   translation = emoticons[:get_emoticon]
+  
   
   translation.each do |key, value|
     
@@ -68,7 +68,7 @@ def get_english_meaning(file_path, emoticon)
        
     else
        
-     puts message
+      message
        
   end     
  end
