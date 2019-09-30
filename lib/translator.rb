@@ -11,7 +11,7 @@ def load_library(file_path)
  }
   
   emoticons.each do |keyvalue, emo|
-    binding.pry
+    
     english = emo[0]
    japanese = emo[1]
     
