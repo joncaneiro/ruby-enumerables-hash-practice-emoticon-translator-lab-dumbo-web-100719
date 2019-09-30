@@ -64,9 +64,9 @@ def get_english_meaning(file_path, emoticon)
     
     binding.pry
     
-    if key == emoticon
+    if value == emoticon
       
-       value
+       key
        
     else
        
