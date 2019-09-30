@@ -28,10 +28,10 @@ end
 
 def get_japanese_emoticon(file_path, emoticon)
   
-  library = load_library(file_path)
+  emoticons = load_library(file_path)
   
   
-  translation = library[:get_meaning]
+  translation = emoticons[:get_meaning]
   
   translation.each do |key, value|
     
