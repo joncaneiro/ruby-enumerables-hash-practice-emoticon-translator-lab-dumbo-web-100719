@@ -17,7 +17,7 @@ def load_library(file_path)
     
    new_hash[:get_meaning][japanese] = keyvalue
    new_hash[:get_emoticon][english] = japanese
-   binding.pry
+   
   end
   
   new_hash
@@ -29,10 +29,10 @@ def get_japanese_emoticon(file_path, emoticon)
   emoticons = load_library(file_path)
   
   new_hash.each do |key1, key2|
-    binding
+    binding.pry
   
 end
-
+end
 
 def get_english_meaning
   # code goes here
