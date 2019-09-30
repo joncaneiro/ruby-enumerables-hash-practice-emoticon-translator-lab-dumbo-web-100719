@@ -33,7 +33,7 @@ def get_japanese_emoticon(file_path, emoticon)
   message = "Sorry, that emoticon was not found"
   
   translation = emoticons[:get_meaning]
-  
+  binding.pry
   
   translation.each do |key, value|
     
