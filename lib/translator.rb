@@ -31,12 +31,11 @@ def get_japanese_emoticon(file_path, emoticon)
   emoticons.each do |key, value|
         key.each do |name, sign|
    
-    
+    binding.pry
         
   
- end 
-end
-binding.pry
+  end 
+ end
 end
 
 def get_english_meaning
