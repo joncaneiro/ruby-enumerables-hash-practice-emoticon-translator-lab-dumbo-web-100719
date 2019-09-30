@@ -15,9 +15,9 @@ def load_library(file_path)
     english = emo[0]
    japanese = emo[1]
     
-   new_hash[:get_meaning][japanese] = keyvalue
+   #new_hash[:get_meaning][japanese] = keyvalue
    
-   new_hash[:get_emoticon][english] = japanese
+   #new_hash[:get_emoticon][english] = japanese
    
  
   end
