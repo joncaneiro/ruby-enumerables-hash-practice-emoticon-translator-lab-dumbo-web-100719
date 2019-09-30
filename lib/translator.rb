@@ -51,7 +51,7 @@ def get_english_meaning
   emoticons = load_library(file_path)
   
   
-  translation = emoticons[:get_meaning]
+  translation = emoticons[:get_emoticon]
   
   translation.each do |key, value|
     
