@@ -62,7 +62,6 @@ def get_english_meaning(file_path, emoticon)
   
   translation.each do |key, value|
     
-    binding.pry
     
     if value == emoticon
       
