@@ -30,6 +30,7 @@ def get_japanese_emoticon(file_path, emoticon)
   
   new_hash.each do |key1, key2|
    
+   binding.pry
   
 end
 end
