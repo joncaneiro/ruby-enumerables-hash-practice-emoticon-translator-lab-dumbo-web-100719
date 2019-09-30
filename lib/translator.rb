@@ -38,7 +38,6 @@ def get_japanese_emoticon(file_path, emoticon)
   translation.each do |key, value|
     
     if key == emoticon
-      #binding.pry
        return value
  
   end     
@@ -54,22 +53,17 @@ def get_english_meaning(file_path, emoticon)
   
   message = "Sorry, that emoticon was not found"
   
-  translation = emoticons['get_emoticon']
+  translation = emoticons['get_meaning']
   
   
   translation.each do |key, value|
     
-    
-    if value == emoticon
-      
-       key
-       
-    else
-       
-      message
-       
+    if key == emoticon
+       return value
+ 
   end     
  end
+ message
 end
 
 
