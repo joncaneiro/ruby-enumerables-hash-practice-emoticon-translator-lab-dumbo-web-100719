@@ -32,18 +32,14 @@ def get_japanese_emoticon(file_path, emoticon)
   
   library = load_library(file_path)
   
-  library.each do |key, value|
+  translation = library[:get_meaning]
+  
+  translation.each do |key, value|
     
-    translation = library[:get_meaning]
+    binding.pry
     
-    if key = translation
-    
-      translation
-        
+
  end
- end
- translation
- 
 end
 
 
