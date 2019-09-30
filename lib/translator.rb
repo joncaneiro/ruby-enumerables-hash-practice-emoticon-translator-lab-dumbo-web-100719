@@ -47,7 +47,20 @@ end
 
 
 def get_english_meaning
-  # code goes here
+  
+  emoticons = load_library(file_path)
+  
+  
+  translation = emoticons[:get_meaning]
+  
+  translation.each do |key, value|
+    
+    if key == emoticon
+      
+       value
+       
+  end     
+ end
 end
 
 
